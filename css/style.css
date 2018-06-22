@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    overflow: hidden !important;
+}
+.digital_cover{
+    height: 100vh;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(162deg, #57005b, #9a005d, #00849a, #009a57, #00259a, #3e9a00);
+    background-size: 1200% 1200%;
+    -webkit-animation: gradinet 30s ease infinite;
+    -moz-animation: gradinet 30s ease infinite;
+    animation: gradinet 30s ease infinite;
+}
+@-webkit-keyframes gradinet {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+
+@-moz-keyframes gradinet {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+
+@keyframes gradinet {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
